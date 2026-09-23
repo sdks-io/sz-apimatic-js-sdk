@@ -21,7 +21,7 @@
 ## Example
 
 ```ts
-import { Record, RecordType } from 'sz-apimatic-sdk';
+import { Record, RecordType } from 'stz-apimatic-sdk';
 
 const record: Record = {
   searchResult: {

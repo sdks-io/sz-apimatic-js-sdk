@@ -18,7 +18,7 @@ Whether a monitor has a run open on it right now.
 ## Example
 
 ```ts
-import { RunState } from 'sz-apimatic-sdk';
+import { RunState } from 'stz-apimatic-sdk';
 
 const runState = RunState.Running;
 ```

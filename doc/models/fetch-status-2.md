@@ -23,7 +23,7 @@ A failed fetch is still HTTP 200, with the error status on the result.
 ## Example
 
 ```ts
-import { FetchStatus2 } from 'sz-apimatic-sdk';
+import { FetchStatus2 } from 'stz-apimatic-sdk';
 
 const fetchStatus2 = FetchStatus2.Ok;
 ```

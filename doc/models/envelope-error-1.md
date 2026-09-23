@@ -20,7 +20,7 @@ The error context.
 ## Example
 
 ```ts
-import { EnvelopeError1 } from 'sz-apimatic-sdk';
+import { EnvelopeError1 } from 'stz-apimatic-sdk';
 
 const envelopeError1: EnvelopeError1 = {
   code: 'code4',

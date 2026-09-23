@@ -23,7 +23,7 @@ default ceiling stated on `ContentOptions`.
 ## Example
 
 ```ts
-import { Fields2 } from 'sz-apimatic-sdk';
+import { Fields2 } from 'stz-apimatic-sdk';
 
 const fields2: Fields2 = {
   content: true,

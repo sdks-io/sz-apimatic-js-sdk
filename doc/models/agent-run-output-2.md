@@ -22,7 +22,7 @@ The run's output. Its members are unset until the run completes.
 ## Example
 
 ```ts
-import { AgentRunOutput2 } from 'sz-apimatic-sdk';
+import { AgentRunOutput2 } from 'stz-apimatic-sdk';
 
 const agentRunOutput2: AgentRunOutput2 = {
   grounding: [

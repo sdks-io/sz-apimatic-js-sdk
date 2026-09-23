@@ -18,7 +18,7 @@
 ## Example
 
 ```ts
-import { SearchRequestRef } from 'sz-apimatic-sdk';
+import { SearchRequestRef } from 'stz-apimatic-sdk';
 
 const searchRequestRef: SearchRequestRef = {
   query: 'query0',

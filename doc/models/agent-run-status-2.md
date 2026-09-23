@@ -20,7 +20,7 @@ Where the run is in its lifecycle.
 ## Example
 
 ```ts
-import { AgentRunStatus2 } from 'sz-apimatic-sdk';
+import { AgentRunStatus2 } from 'stz-apimatic-sdk';
 
 const agentRunStatus2 = AgentRunStatus2.Completed;
 ```

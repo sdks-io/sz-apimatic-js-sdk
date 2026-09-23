@@ -17,7 +17,7 @@
 ## Example
 
 ```ts
-import { ListRunRequestsResponse } from 'sz-apimatic-sdk';
+import { ListRunRequestsResponse } from 'stz-apimatic-sdk';
 
 const listRunRequestsResponse: ListRunRequestsResponse = {
   requests: [

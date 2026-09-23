@@ -28,7 +28,7 @@
 ## Example
 
 ```ts
-import { Run, RunStatus } from 'sz-apimatic-sdk';
+import { Run, RunStatus } from 'stz-apimatic-sdk';
 
 const run: Run = {
   status: RunStatus.Completed,

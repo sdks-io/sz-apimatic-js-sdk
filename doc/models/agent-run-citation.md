@@ -20,7 +20,7 @@ One citation supporting a grounded field.
 ## Example
 
 ```ts
-import { AgentRunCitation } from 'sz-apimatic-sdk';
+import { AgentRunCitation } from 'stz-apimatic-sdk';
 
 const agentRunCitation: AgentRunCitation = {
   sourceId: 0,

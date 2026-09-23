@@ -22,7 +22,7 @@ Documentation for accessing and setting credentials for ApiKeyAuth.
 You must provide credentials in the client as shown in the following code snippet.
 
 ```ts
-import { Client } from 'sz-apimatic-sdk';
+import { Client } from 'stz-apimatic-sdk';
 
 const client = new Client({
   customHeaderAuthenticationCredentials: {

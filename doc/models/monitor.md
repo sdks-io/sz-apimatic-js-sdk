@@ -24,7 +24,7 @@
 ## Example
 
 ```ts
-import { Monitor, MonitorStatus } from 'sz-apimatic-sdk';
+import { Monitor, MonitorStatus } from 'stz-apimatic-sdk';
 
 const monitor: Monitor = {
   cadence: 'cadence6',

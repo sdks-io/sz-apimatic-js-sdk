@@ -20,7 +20,7 @@ HTTP-shape citation. Mirrors the `Citation` proto.
 ## Example
 
 ```ts
-import { HttpCitation } from 'sz-apimatic-sdk';
+import { HttpCitation } from 'stz-apimatic-sdk';
 
 const httpCitation: HttpCitation = {
   url: 'url6',

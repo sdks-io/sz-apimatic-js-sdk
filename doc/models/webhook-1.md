@@ -22,7 +22,7 @@ JSON `null` clears the webhook; an absent field keeps it. Set
 ## Example
 
 ```ts
-import { Webhook1 } from 'sz-apimatic-sdk';
+import { Webhook1 } from 'stz-apimatic-sdk';
 
 const webhook1: Webhook1 = {
   events: [

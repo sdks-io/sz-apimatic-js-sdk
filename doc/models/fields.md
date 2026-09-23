@@ -31,7 +31,7 @@ A `fields` that names neither member returns the defaults below, so `{}` and a w
 ## Example
 
 ```ts
-import { Fields } from 'sz-apimatic-sdk';
+import { Fields } from 'stz-apimatic-sdk';
 
 const fields: Fields = {
   content: true,

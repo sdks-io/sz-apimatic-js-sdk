@@ -17,7 +17,7 @@
 ## Example
 
 ```ts
-import { SearchResponse } from 'sz-apimatic-sdk';
+import { SearchResponse } from 'stz-apimatic-sdk';
 
 const searchResponse: SearchResponse = {
   documents: [

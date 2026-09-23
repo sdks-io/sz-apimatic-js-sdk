@@ -22,7 +22,7 @@ so far is usable and with `failed` when it is not.
 ## Example
 
 ```ts
-import { AgentRunStopReason } from 'sz-apimatic-sdk';
+import { AgentRunStopReason } from 'stz-apimatic-sdk';
 
 const agentRunStopReason = AgentRunStopReason.Finished;
 ```

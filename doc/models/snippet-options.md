@@ -28,7 +28,7 @@ most what was specified. Only a value outside the range below is rejected.
 ## Example
 
 ```ts
-import { SnippetOptions } from 'sz-apimatic-sdk';
+import { SnippetOptions } from 'stz-apimatic-sdk';
 
 const snippetOptions: SnippetOptions = {
   maxSnippets: 54,

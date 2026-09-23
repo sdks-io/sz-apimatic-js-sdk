@@ -17,7 +17,7 @@ Whether one search request succeeded in a run.
 ## Example
 
 ```ts
-import { RequestStatus } from 'sz-apimatic-sdk';
+import { RequestStatus } from 'stz-apimatic-sdk';
 
 const requestStatus = RequestStatus.Ok;
 ```

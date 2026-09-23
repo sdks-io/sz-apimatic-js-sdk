@@ -18,7 +18,7 @@
 ## Example
 
 ```ts
-import { GetMonitorResponse, RunState2 } from 'sz-apimatic-sdk';
+import { GetMonitorResponse, RunState2 } from 'stz-apimatic-sdk';
 
 const getMonitorResponse: GetMonitorResponse = {
   runState: RunState2.Idle,

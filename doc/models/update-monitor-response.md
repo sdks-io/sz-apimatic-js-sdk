@@ -17,7 +17,7 @@
 ## Example
 
 ```ts
-import { UpdateMonitorResponse } from 'sz-apimatic-sdk';
+import { UpdateMonitorResponse } from 'stz-apimatic-sdk';
 
 const updateMonitorResponse: UpdateMonitorResponse = {
   monitor: null,

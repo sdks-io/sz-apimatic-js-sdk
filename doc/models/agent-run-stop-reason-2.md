@@ -21,7 +21,7 @@ Why the run stopped. Set once the run reaches a terminal state.
 ## Example
 
 ```ts
-import { AgentRunStopReason2 } from 'sz-apimatic-sdk';
+import { AgentRunStopReason2 } from 'stz-apimatic-sdk';
 
 const agentRunStopReason2 = AgentRunStopReason2.Finished;
 ```

@@ -19,7 +19,7 @@
 ## Example
 
 ```ts
-import { Webhook } from 'sz-apimatic-sdk';
+import { Webhook } from 'stz-apimatic-sdk';
 
 const webhook: Webhook = {
   events: [

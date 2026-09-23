@@ -27,7 +27,7 @@ An agent run.
 ## Example
 
 ```ts
-import { AgentRun, AgentRunStatus2 } from 'sz-apimatic-sdk';
+import { AgentRun, AgentRunStatus2 } from 'stz-apimatic-sdk';
 
 const agentRun: AgentRun = {
   completedAt: 'completed_at4',

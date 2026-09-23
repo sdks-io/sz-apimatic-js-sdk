@@ -17,7 +17,7 @@ Whether a `FetchResult` carries content.
 ## Example
 
 ```ts
-import { FetchStatus } from 'sz-apimatic-sdk';
+import { FetchStatus } from 'stz-apimatic-sdk';
 
 const fetchStatus = FetchStatus.Ok;
 ```

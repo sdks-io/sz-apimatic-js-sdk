@@ -26,7 +26,7 @@
 ## Example
 
 ```ts
-import { SearchRequest } from 'sz-apimatic-sdk';
+import { SearchRequest } from 'stz-apimatic-sdk';
 
 const searchRequest: SearchRequest = {
   apiKey: 'api_key4',

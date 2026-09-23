@@ -10,31 +10,31 @@ REST API for the Seltz platform: context retrieval (`/v1/search`), RAG answers (
 Run the following command from your project directory to install the package from npm:
 
 ```bash
-npm install sz-apimatic-sdk@0.0.1
+npm install stz-apimatic-sdk@0.0.2
 ```
 
-For additional package details, see the [Npm page for the sz-apimatic-sdk@0.0.1 npm](https://www.npmjs.com/package/sz-apimatic-sdk/v/0.0.1).
+For additional package details, see the [Npm page for the stz-apimatic-sdk@0.0.2 npm](https://www.npmjs.com/package/stz-apimatic-sdk/v/0.0.2).
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
 | Parameter | Type | Description |
 |  --- | --- | --- |
 | timeout | `number` | Timeout for API calls.<br>*Default*: `30000` |
-| httpClientOptions | [`Partial<HttpClientOptions>`](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/http-client-options.md) | Stable configurable http client options. |
+| httpClientOptions | [`Partial<HttpClientOptions>`](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/http-client-options.md) | Stable configurable http client options. |
 | unstableHttpClientOptions | `any` | Unstable configurable http client options. |
-| logging | [`PartialLoggingOptions`](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/partial-logging-options.md) | Logging Configuration to enable logging |
-| customHeaderAuthenticationCredentials | [`CustomHeaderAuthenticationCredentials`](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/auth/custom-header-signature.md) | The credential object for customHeaderAuthentication |
+| logging | [`PartialLoggingOptions`](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/partial-logging-options.md) | Logging Configuration to enable logging |
+| customHeaderAuthenticationCredentials | [`CustomHeaderAuthenticationCredentials`](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/auth/custom-header-signature.md) | The credential object for customHeaderAuthentication |
 
 The API client can be initialized as follows:
 
 ### Code-Based Client Initialization
 
 ```ts
-import { Client, LogLevel } from 'sz-apimatic-sdk';
+import { Client, LogLevel } from 'stz-apimatic-sdk';
 
 const client = new Client({
   customHeaderAuthenticationCredentials: {
@@ -58,7 +58,7 @@ const client = new Client({
 ```ts
 import * as path from 'path';
 import * as fs from 'fs';
-import { Client } from 'sz-apimatic-sdk';
+import { Client } from 'stz-apimatic-sdk';
 
 // Provide absolute path for the configuration file
 const absolutePath = path.resolve('./config.json');
@@ -70,7 +70,7 @@ const fileContent = fs.readFileSync(absolutePath, 'utf-8');
 const client = Client.fromJsonConfig(fileContent);
 ```
 
-See the [Configuration-Based Client Initialization](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/configuration-based-client-initialization.md) section for details.
+See the [Configuration-Based Client Initialization](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/configuration-based-client-initialization.md) section for details.
 
 ### Environment-Based Client Initialization
 
@@ -78,7 +78,7 @@ See the [Configuration-Based Client Initialization](https://www.github.com/sdks-
 import * as dotenv from 'dotenv';
 import * as path from 'path';
 import * as fs from 'fs';
-import { Client } from 'sz-apimatic-sdk';
+import { Client } from 'stz-apimatic-sdk';
 
 // Optional - Provide absolute path for the .env file
 const absolutePath = path.resolve('./.env');
@@ -92,44 +92,44 @@ if (fs.existsSync(absolutePath)) {
 const client = Client.fromEnvironment(process.env);
 ```
 
-See the [Environment-Based Client Initialization](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/environment-based-client-initialization.md) section for details.
+See the [Environment-Based Client Initialization](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/environment-based-client-initialization.md) section for details.
 
 ## Authorization
 
 This API uses the following authentication schemes.
 
-* [`ApiKeyAuth (Custom Header Signature)`](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/auth/custom-header-signature.md)
+* [`ApiKeyAuth (Custom Header Signature)`](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/auth/custom-header-signature.md)
 
 ## List of APIs
 
-* [Search](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/controllers/search.md)
-* [Answer](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/controllers/answer.md)
-* [Monitors](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/controllers/monitors.md)
-* [Records](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/controllers/records.md)
-* [Runs](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/controllers/runs.md)
-* [Agent](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/controllers/agent.md)
-* [Fetch](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/controllers/fetch.md)
+* [Search](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/controllers/search.md)
+* [Answer](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/controllers/answer.md)
+* [Monitors](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/controllers/monitors.md)
+* [Records](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/controllers/records.md)
+* [Runs](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/controllers/runs.md)
+* [Agent](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/controllers/agent.md)
+* [Fetch](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/controllers/fetch.md)
 
 ## SDK Infrastructure
 
 ### Configuration
 
-* [HttpClientOptions](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/http-client-options.md)
-* [RetryConfiguration](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/retry-configuration.md)
-* [ProxySettings](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/proxy-settings.md)
-* [Configuration-Based Client Initialization](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/configuration-based-client-initialization.md)
-* [Environment-Based Client Initialization](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/environment-based-client-initialization.md)
-* [PartialLoggingOptions](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/partial-logging-options.md)
-* [PartialRequestLoggingOptions](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/partial-request-logging-options.md)
-* [PartialResponseLoggingOptions](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/partial-response-logging-options.md)
-* [LoggerInterface](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/logger-interface.md)
+* [HttpClientOptions](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/http-client-options.md)
+* [RetryConfiguration](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/retry-configuration.md)
+* [ProxySettings](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/proxy-settings.md)
+* [Configuration-Based Client Initialization](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/configuration-based-client-initialization.md)
+* [Environment-Based Client Initialization](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/environment-based-client-initialization.md)
+* [PartialLoggingOptions](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/partial-logging-options.md)
+* [PartialRequestLoggingOptions](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/partial-request-logging-options.md)
+* [PartialResponseLoggingOptions](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/partial-response-logging-options.md)
+* [LoggerInterface](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/logger-interface.md)
 
 ### HTTP
 
-* [HttpRequest](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/http-request.md)
+* [HttpRequest](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/http-request.md)
 
 ### Utilities
 
-* [ApiResponse](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/api-response.md)
-* [ApiError](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.1/doc/api-error.md)
+* [ApiResponse](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/api-response.md)
+* [ApiError](https://www.github.com/sdks-io/sz-apimatic-js-sdk/tree/0.0.2/doc/api-error.md)
 

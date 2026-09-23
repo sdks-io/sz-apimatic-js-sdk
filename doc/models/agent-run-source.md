@@ -20,7 +20,7 @@ One source a run cited.
 ## Example
 
 ```ts
-import { AgentRunSource } from 'sz-apimatic-sdk';
+import { AgentRunSource } from 'stz-apimatic-sdk';
 
 const agentRunSource: AgentRunSource = {
   id: 0,

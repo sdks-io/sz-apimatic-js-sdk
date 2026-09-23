@@ -18,7 +18,7 @@
 ## Example
 
 ```ts
-import { ListMonitorsResponse } from 'sz-apimatic-sdk';
+import { ListMonitorsResponse } from 'stz-apimatic-sdk';
 
 const listMonitorsResponse: ListMonitorsResponse = {
   hasMore: false,

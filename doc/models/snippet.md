@@ -19,7 +19,7 @@ One passage selected from a document's body.
 ## Example
 
 ```ts
-import { Snippet } from 'sz-apimatic-sdk';
+import { Snippet } from 'stz-apimatic-sdk';
 
 const snippet: Snippet = {
   text: 'text0',

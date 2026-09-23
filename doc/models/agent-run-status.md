@@ -21,7 +21,7 @@ pending → running → completed / failed / cancelled.
 ## Example
 
 ```ts
-import { AgentRunStatus } from 'sz-apimatic-sdk';
+import { AgentRunStatus } from 'stz-apimatic-sdk';
 
 const agentRunStatus = AgentRunStatus.Pending;
 ```

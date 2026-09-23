@@ -22,7 +22,7 @@ A search request stored on a monitor, with its server-assigned id.
 ## Example
 
 ```ts
-import { MonitorSearchRequest } from 'sz-apimatic-sdk';
+import { MonitorSearchRequest } from 'stz-apimatic-sdk';
 
 const monitorSearchRequest: MonitorSearchRequest = {
   consecutiveFailures: BigInt(0),

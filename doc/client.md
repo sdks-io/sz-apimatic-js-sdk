@@ -16,7 +16,7 @@ The API client can be initialized as follows:
 ## Code-Based Client Initialization
 
 ```ts
-import { Client, LogLevel } from 'sz-apimatic-sdk';
+import { Client, LogLevel } from 'stz-apimatic-sdk';
 
 const client = new Client({
   customHeaderAuthenticationCredentials: {
@@ -40,7 +40,7 @@ const client = new Client({
 ```ts
 import * as path from 'path';
 import * as fs from 'fs';
-import { Client } from 'sz-apimatic-sdk';
+import { Client } from 'stz-apimatic-sdk';
 
 // Provide absolute path for the configuration file
 const absolutePath = path.resolve('./config.json');
@@ -60,7 +60,7 @@ See the [Configuration-Based Client Initialization](../doc/configuration-based-c
 import * as dotenv from 'dotenv';
 import * as path from 'path';
 import * as fs from 'fs';
-import { Client } from 'sz-apimatic-sdk';
+import { Client } from 'stz-apimatic-sdk';
 
 // Optional - Provide absolute path for the .env file
 const absolutePath = path.resolve('./.env');

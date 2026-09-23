@@ -23,7 +23,7 @@ be set through the API; `disabled` and `deleted` are set by Seltz.
 ## Example
 
 ```ts
-import { MonitorStatus } from 'sz-apimatic-sdk';
+import { MonitorStatus } from 'stz-apimatic-sdk';
 
 const monitorStatus = MonitorStatus.Active;
 ```

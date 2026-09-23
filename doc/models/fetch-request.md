@@ -21,7 +21,7 @@
 ## Example
 
 ```ts
-import { FetchRequest } from 'sz-apimatic-sdk';
+import { FetchRequest } from 'stz-apimatic-sdk';
 
 const fetchRequest: FetchRequest = {
   apiKey: 'api_key6',

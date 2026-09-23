@@ -21,7 +21,7 @@ otherwise.
 ## Example
 
 ```ts
-import { FetchError1 } from 'sz-apimatic-sdk';
+import { FetchError1 } from 'stz-apimatic-sdk';
 
 const fetchError1: FetchError1 = {
   code: 'code6',

@@ -20,7 +20,7 @@ Why one URL failed.
 ## Example
 
 ```ts
-import { FetchError } from 'sz-apimatic-sdk';
+import { FetchError } from 'stz-apimatic-sdk';
 
 const fetchError: FetchError = {
   code: 'code4',

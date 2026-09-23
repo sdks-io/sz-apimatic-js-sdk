@@ -26,7 +26,7 @@ JSON request body for `POST /v1/answer`.
 ## Example
 
 ```ts
-import { AnswerHttpRequest } from 'sz-apimatic-sdk';
+import { AnswerHttpRequest } from 'stz-apimatic-sdk';
 
 const answerHttpRequest: AnswerHttpRequest = {
   query: 'query0',

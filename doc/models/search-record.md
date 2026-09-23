@@ -18,7 +18,7 @@
 ## Example
 
 ```ts
-import { SearchRecord } from 'sz-apimatic-sdk';
+import { SearchRecord } from 'stz-apimatic-sdk';
 
 const searchRecord: SearchRecord = {
   document: null,

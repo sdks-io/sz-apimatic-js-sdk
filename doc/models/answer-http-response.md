@@ -20,7 +20,7 @@ Buffered JSON response body for `POST /v1/answer`.
 ## Example
 
 ```ts
-import { AnswerHttpResponse } from 'sz-apimatic-sdk';
+import { AnswerHttpResponse } from 'stz-apimatic-sdk';
 
 const answerHttpResponse: AnswerHttpResponse = {
   answer: 'answer4',

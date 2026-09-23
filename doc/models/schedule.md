@@ -17,7 +17,7 @@
 ## Example
 
 ```ts
-import { Schedule } from 'sz-apimatic-sdk';
+import { Schedule } from 'stz-apimatic-sdk';
 
 const schedule: Schedule = {
   cadence: 'cadence8',

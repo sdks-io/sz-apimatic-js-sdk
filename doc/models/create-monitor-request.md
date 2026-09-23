@@ -22,7 +22,7 @@
 ## Example
 
 ```ts
-import { CreateMonitorRequest, MonitorStatus2 } from 'sz-apimatic-sdk';
+import { CreateMonitorRequest, MonitorStatus2 } from 'stz-apimatic-sdk';
 
 const createMonitorRequest: CreateMonitorRequest = {
   cadence: 'cadence2',

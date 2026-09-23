@@ -16,7 +16,7 @@ What a record carries.
 ## Example
 
 ```ts
-import { RecordType } from 'sz-apimatic-sdk';
+import { RecordType } from 'stz-apimatic-sdk';
 
 const recordType = RecordType.SearchResult;
 ```

@@ -17,7 +17,7 @@
 ## Example
 
 ```ts
-import { CreateAgentRunRequest } from 'sz-apimatic-sdk';
+import { CreateAgentRunRequest } from 'stz-apimatic-sdk';
 
 const createAgentRunRequest: CreateAgentRunRequest = {
   apiKey: 'api_key6',

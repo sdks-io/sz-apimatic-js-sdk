@@ -20,7 +20,7 @@ and `paused` are accepted. Defaults to `active`.
 ## Example
 
 ```ts
-import { MonitorStatus2 } from 'sz-apimatic-sdk';
+import { MonitorStatus2 } from 'stz-apimatic-sdk';
 
 const monitorStatus2 = MonitorStatus2.Active;
 ```

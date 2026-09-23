@@ -17,7 +17,7 @@
 ## Example
 
 ```ts
-import { GetRunResponse } from 'sz-apimatic-sdk';
+import { GetRunResponse } from 'stz-apimatic-sdk';
 
 const getRunResponse: GetRunResponse = {
   run: null,

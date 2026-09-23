@@ -24,7 +24,7 @@ One run's outcome for one search request.
 ## Example
 
 ```ts
-import { RequestStatus, RunRequest } from 'sz-apimatic-sdk';
+import { RequestStatus, RunRequest } from 'stz-apimatic-sdk';
 
 const runRequest: RunRequest = {
   status: RequestStatus.Ok,

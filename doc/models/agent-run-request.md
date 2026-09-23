@@ -21,7 +21,7 @@ The request a run was created with.
 ## Example
 
 ```ts
-import { AgentRunRequest } from 'sz-apimatic-sdk';
+import { AgentRunRequest } from 'stz-apimatic-sdk';
 
 const agentRunRequest: AgentRunRequest = {
   effort: 'effort8',

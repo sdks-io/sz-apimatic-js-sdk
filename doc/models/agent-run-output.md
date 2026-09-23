@@ -22,7 +22,7 @@ A run's output.
 ## Example
 
 ```ts
-import { AgentRunOutput } from 'sz-apimatic-sdk';
+import { AgentRunOutput } from 'stz-apimatic-sdk';
 
 const agentRunOutput: AgentRunOutput = {
   grounding: [

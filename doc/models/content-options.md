@@ -25,7 +25,7 @@ most what was specified. Only a value outside the range below is rejected.
 ## Example
 
 ```ts
-import { ContentOptions } from 'sz-apimatic-sdk';
+import { ContentOptions } from 'stz-apimatic-sdk';
 
 const contentOptions: ContentOptions = {
   maxCharactersPerResult: 192,

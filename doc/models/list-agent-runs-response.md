@@ -20,7 +20,7 @@ List-runs response: one page of runs.
 ## Example
 
 ```ts
-import { ListAgentRunsResponse } from 'sz-apimatic-sdk';
+import { ListAgentRunsResponse } from 'stz-apimatic-sdk';
 
 const listAgentRunsResponse: ListAgentRunsResponse = {
   next: 'next6',

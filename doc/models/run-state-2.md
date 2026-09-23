@@ -19,7 +19,7 @@ include it.
 ## Example
 
 ```ts
-import { RunState2 } from 'sz-apimatic-sdk';
+import { RunState2 } from 'stz-apimatic-sdk';
 
 const runState2 = RunState2.Unknown;
 ```

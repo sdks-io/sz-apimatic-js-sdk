@@ -21,7 +21,7 @@ set per endpoint. `message` is a human-readable summary of what went wrong.
 ## Example
 
 ```ts
-import { EnvelopeError } from 'sz-apimatic-sdk';
+import { EnvelopeError } from 'stz-apimatic-sdk';
 
 const envelopeError: EnvelopeError = {
   code: 'code2',

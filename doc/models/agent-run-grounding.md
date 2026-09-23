@@ -20,7 +20,7 @@ Citations for one field of `output.structured`.
 ## Example
 
 ```ts
-import { AgentRunGrounding } from 'sz-apimatic-sdk';
+import { AgentRunGrounding } from 'stz-apimatic-sdk';
 
 const agentRunGrounding: AgentRunGrounding = {
   citations: [

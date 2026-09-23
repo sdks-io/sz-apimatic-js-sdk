@@ -26,7 +26,7 @@ members are populated only when `SearchRequest.fields` asked for them.
 ## Example
 
 ```ts
-import { Document } from 'sz-apimatic-sdk';
+import { Document } from 'stz-apimatic-sdk';
 
 const document: Document = {
   content: 'content0',

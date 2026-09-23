@@ -26,7 +26,7 @@ The outcome for one URL.
 ## Example
 
 ```ts
-import { FetchResult, FetchStatus2 } from 'sz-apimatic-sdk';
+import { FetchResult, FetchStatus2 } from 'stz-apimatic-sdk';
 
 const fetchResult: FetchResult = {
   status: FetchStatus2.Ok,

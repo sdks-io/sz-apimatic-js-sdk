@@ -19,7 +19,7 @@ One result per requested URL.
 ## Example
 
 ```ts
-import { FetchResponse } from 'sz-apimatic-sdk';
+import { FetchResponse } from 'stz-apimatic-sdk';
 
 const fetchResponse: FetchResponse = {
   results: [

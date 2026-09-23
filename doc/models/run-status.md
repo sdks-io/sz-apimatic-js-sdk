@@ -24,7 +24,7 @@ succeeded, and no records. `skipped` -- not attempted and not billed; see
 ## Example
 
 ```ts
-import { RunStatus } from 'sz-apimatic-sdk';
+import { RunStatus } from 'stz-apimatic-sdk';
 
 const runStatus = RunStatus.Completed;
 ```
